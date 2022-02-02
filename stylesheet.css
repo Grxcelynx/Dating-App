@@ -1,0 +1,26 @@
+container-fluid {
+    background-color: aquamarine;
+    color: aquamarine;
+    text-shadow: blue;
+}
+
+aside{
+    background-color: darkolivegreen;
+    width: 35%;
+    height:680px ;
+    float: right;
+}
+section, article{
+    background-color: deepskyblue;
+    height: 340px;
+    width: 65%;
+    float: left;
+}
+footer{
+    background-color: rosybrown;
+    clear: both;
+}
+
+nav-item {
+    color: blue;
+}
