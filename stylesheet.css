@@ -1,26 +1,35 @@
-container-fluid {
-    background-color: aquamarine;
+.container-fluid {
+    /* background-color: red; */
     color: aquamarine;
     text-shadow: blue;
 }
 
-aside{
-    background-color: darkolivegreen;
-    width: 35%;
-    height:680px ;
-    float: right;
-}
-section, article{
-    background-color: deepskyblue;
-    height: 340px;
-    width: 65%;
-    float: left;
-}
-footer{
-    background-color: rosybrown;
-    clear: both;
-}
 
-nav-item {
+.nav-item {
     color: blue;
 }
+
+.img {
+    justify-content: center;
+    position: relative;
+    height: 40%;
+    width: 80%;
+    left: 10%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 65%;
+    background-image: url(/Users/gracebirnam/Bitwise/Dating-App/img/phone-img.GIF);
+    /* background-image: url(https://www.bing.com/th/id/OGC.ec05eb96980cf5521f1c24190c57f420?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fec%2f05%2feb%2fec05eb96980cf5521f1c24190c57f420.gif&ehk=J0mjqGjOSUfw2HoltbUM4hQ647sgrZ6j8KK8WRe6zGs%3d); */
+    /* background-image:url(https://img1.picmix.com/output/stamp/normal/9/4/8/8/478849_d4524.gif); */
+    /* background-image:url(https://www.bing.com/th/id/OGC.3dc583e17ad9705d724eca5c51b3ebc0?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fd3%2f24%2f4a%2fd3244a9c44dea6030ed7218c73ecd941.gif&ehk=LT1bMJWnvAgKZKZ7Z1tjwM1NC67nwa7vRK4J3iEe8cY%3d); */
+}
+
+
+.hero {
+    background-color: red;
+    /* background-image:url(https://img1.picmix.com/output/stamp/normal/9/4/8/8/478849_d4524.gif); */
+    background-image: url(https://i.pinimg.com/originals/87/34/a7/8734a741f3e9825ecfb758dd36173244.gif);
+
+}
+
