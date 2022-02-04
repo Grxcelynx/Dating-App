@@ -1,3 +1,17 @@
+body {
+    /* background-image: url(https://images.hdqwalls.com/wallpapers/moon-stars-reflection-70.jpg); */
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    background-position-x: 70%;
+    /* background-position-y: 100%;
+    background-position-x: left 100%;
+    background-position-y: left 100%; */
+
+    height: 100vh;
+    bottom: 100%;
+}
+
 .container-fluid {
     /* background-color: red; */
     color: aquamarine;
@@ -12,14 +26,16 @@
 .img {
     justify-content: center;
     position: relative;
-    height: 40%;
+    height: 55%;
     width: 80%;
-    left: 10%;
+    border: 15px black;
     background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: 65%;
-    background-image: url(/Users/gracebirnam/Bitwise/Dating-App/img/phone-img.GIF);
+    background-size: 20%;
+    /* background-image: url(/Users/gracebirnam/Bitwise/Dating-App/img/profile.JPG); */
+    background-image: url(/Users/gracebirnam/Bitwise/Dating-App/img/profile-pic3.jpg);
     /* background-image: url(https://www.bing.com/th/id/OGC.ec05eb96980cf5521f1c24190c57f420?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fec%2f05%2feb%2fec05eb96980cf5521f1c24190c57f420.gif&ehk=J0mjqGjOSUfw2HoltbUM4hQ647sgrZ6j8KK8WRe6zGs%3d); */
     /* background-image:url(https://img1.picmix.com/output/stamp/normal/9/4/8/8/478849_d4524.gif); */
     /* background-image:url(https://www.bing.com/th/id/OGC.3dc583e17ad9705d724eca5c51b3ebc0?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2fd3%2f24%2f4a%2fd3244a9c44dea6030ed7218c73ecd941.gif&ehk=LT1bMJWnvAgKZKZ7Z1tjwM1NC67nwa7vRK4J3iEe8cY%3d); */
@@ -27,9 +43,62 @@
 
 
 .hero {
-    background-color: red;
     /* background-image:url(https://img1.picmix.com/output/stamp/normal/9/4/8/8/478849_d4524.gif); */
-    background-image: url(https://i.pinimg.com/originals/87/34/a7/8734a741f3e9825ecfb758dd36173244.gif);
+    /* background-image: url(https://i.pinimg.com/originals/87/34/a7/8734a741f3e9825ecfb758dd36173244.gif); */
+    /* transform: rotate(20deg); */
+    /* background-image: linear-gradient(to right,#EE4491,transparent,transparent,transparent, transparent,transparent, #EE4491); */
+    left: 50%;
+}
+
+.sign-up {
+    /* border-radius: 100px; */
+    border-width: thick;
+    border: 10px solid #6F0B1D;   
+    height: 75%;
+    width: 125%;
+    border-radius: 5%;
+}
+
+.signup-page {
+    background-color: lawngreen;
 
 }
 
+.pinkSquare {
+    height: 50%;
+    size: 20%;
+}
+
+.carousel-slide {
+    height: 20%;
+}
+
+.figure1 {
+    top: 10%;
+    right: 50%;
+    position: absolute;
+    width: 75%;
+}
+
+.figure2 {
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    width: 75%;
+    border: 5px solid #6F0B1D;   
+
+
+}
+
+.figure3 {
+    top: 90%;
+    right: 50%;
+    position: absolute;
+    width: 75%;
+
+}
+
+.span {
+    background-color: #6F0B1D;   
+
+}
