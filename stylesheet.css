@@ -12,9 +12,22 @@ body {
     bottom: 100%;
 }
 
-h4 {
-    background-image: linear-gradient(to right, transparent, #c48994,transparent, transparent, transparent);
+.testgif {
+    /* background-image: url(./img/intro.MOV); */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+    background-size: 300px;
 }
+
+
+
+
+/* h4 {
+} */
+
 .link-button {
     /* float: right; */
     padding-bottom: 25px;
@@ -56,6 +69,7 @@ head {
     /* left: 50%; */
     position: relative;
     justify-content: center;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmFtYXppbmdsd3AubmlnaHRjaXR5bHdwX3NjcmVlbl82XzE1NTEyODQ2NDdfMDA2/screen-6.jpg?fakeurl=1&type=.jpg);
 }
 
 .col {

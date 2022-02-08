@@ -1,0 +1,17 @@
+/* @keyframes example {
+    0%   {background-image: url(./profiles/andrew.JPG);}
+    25%  {background-image: url(./profiles/harley.JPG);}
+    50%  {background-image: url(./profiles/kate.png);}
+    100% {background-image: url(./profiles/shang-chi.JPG);}
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    background-repeat: no-repeat;
+    animation-direction: normal;
+    transform: translateX(10px);
+} */
