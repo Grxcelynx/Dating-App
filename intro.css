@@ -15,3 +15,58 @@ div {
     animation-direction: normal;
     transform: translateX(10px);
 } */
+
+
+
+/* body {
+    background-image: url(./profiles/SuperSoulmate.gif);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    top: 50%;
+    position: relative;
+    background-position-x: 50%;
+    background-position-y: -50%;
+    border: 5px black;
+
+} */
+
+.main {    
+    height: 100vh;
+    position: relative;
+    /* background-image: url(https://data.whicdn.com/images/328404020/original.gif) ; */
+    /* background-image: url(https://i.pinimg.com/originals/a2/e4/70/a2e4709301ba2486afe52696d031b5d9.gif); */
+    background-image: url(https://data.whicdn.com/images/303225052/original.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.figure {
+    height: 600px;
+    width: 400px;
+    position: relative;
+    border: 15px solid black;
+    border-radius: 5%;
+    background-color: black;
+    left: 35%;
+    align-items: center;
+    bottom: 90%;
+}
+
+.shadow {
+    transform: translateY(10%) perspective(50px) rotateX(6deg) scale(1, .4); 
+/*     position: absolute; */
+    /* width: min(70%, 500px); */
+    width: 500px;
+    height: 20vh;
+    bottom: 0;
+    background-color: black;
+    /* border-radius: 10%; */
+    background: radial-gradient(rgba(236, 236, 238, 0.8) 0px, transparent 10vh);
+    pointer-events: none;
+    animation: pulse 6s ease-in-out infinite;
+    left: 35%;
+}
+
+
+
+

@@ -88,29 +88,43 @@ head {
 
 }
 
+aside{
+    /* background-color: darkolivegreen; */
+    width: 35%;
+    height:680px ;
+    float: left;
+}
+
+section, article{
+    background-color: deepskyblue;
+    height: 340px;
+    width: 65%;
+    float: right;
+}
+
 .figure1 {
     top: 10%;
-    right: 5%;
+    left: 1%;
     position: relative;
-    width: 75%;
+    /* width: 25%; */
     border: 5px solid #b6b4b5;   
     border-radius: 5%;
 }
 
 .figure2 {
     top: 20%;
-    left: 20%;
+    left: 5%;
     position: relative;
-    width: 75%;
+    width: 25%;
     border: 5px solid #b6b4b5;   
     border-radius: 5%;
 }
 
 .figure3 {
     top: 30%;
-    right: 5%;
+    left: 1%;
     position: relative;
-    width: 75%;
+    width: 25%;
     border: 5px solid #b6b4b5;   
     border-radius: 5%;
 }
