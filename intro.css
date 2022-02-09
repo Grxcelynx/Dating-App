@@ -1,72 +1,51 @@
-/* @keyframes example {
-    0%   {background-image: url(./profiles/andrew.JPG);}
-    25%  {background-image: url(./profiles/harley.JPG);}
-    50%  {background-image: url(./profiles/kate.png);}
-    100% {background-image: url(./profiles/shang-chi.JPG);}
-}
-
-div {
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 10s;
-    background-repeat: no-repeat;
-    animation-direction: normal;
-    transform: translateX(10px);
-} */
-
-
-
-/* body {
-    background-image: url(./profiles/SuperSoulmate.gif);
-    background-size: 300px;
-    background-repeat: no-repeat;
-    top: 50%;
-    position: relative;
-    background-position-x: 50%;
-    background-position-y: -50%;
-    border: 5px black;
-
-} */
 
 .main {    
     height: 100vh;
     position: relative;
     /* background-image: url(https://data.whicdn.com/images/328404020/original.gif) ; */
     /* background-image: url(https://i.pinimg.com/originals/a2/e4/70/a2e4709301ba2486afe52696d031b5d9.gif); */
-    background-image: url(https://data.whicdn.com/images/303225052/original.gif);
+    /* background-image: url(https://i.pinimg.com/originals/6e/47/1a/6e471a2370d95b21fdbcff841b3613d7.gif); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 .figure {
     height: 600px;
     width: 400px;
-    position: relative;
+    position: absolute;
     border: 15px solid black;
     border-radius: 5%;
     background-color: black;
-    left: 35%;
+    left: 37%;
     align-items: center;
-    bottom: 90%;
+    bottom: 10%;
+    top: 20%;
+    box-shadow: 0 4px 8px 0 rgba(241, 238, 238, 0.2), 0 6px 20px 0 rgba(240, 236, 236, 0.19);
+
 }
 
 .shadow {
-    transform: translateY(10%) perspective(50px) rotateX(6deg) scale(1, .4); 
-/*     position: absolute; */
-    /* width: min(70%, 500px); */
-    width: 500px;
+    transform: translateY(10%) perspective(100px) rotateX(6deg) scale(1, .4); 
+    position: absolute;
+    /* width: min(70%, 1000px); */
+    width: 1000px;
     height: 20vh;
     bottom: 0;
     background-color: black;
-    /* border-radius: 10%; */
+    border-radius: 1%;
     background: radial-gradient(rgba(236, 236, 238, 0.8) 0px, transparent 10vh);
     pointer-events: none;
     animation: pulse 6s ease-in-out infinite;
-    left: 35%;
+    right: 12%;
 }
 
-
-
+.iphone-button{
+    padding-bottom: 25px;
+    background: transparent;
+    border: transparent;
+    color: #6F0B1D;
+    position: relative;
+    left: 20%;
+}
 

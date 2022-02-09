@@ -1,7 +1,9 @@
 *{
     font-family: 'Fugaz One', cursive;
     font-family: 'Luckiest Guy', cursive;
-    font-family: 'Racing Sans One', cursive;}
+    font-family: 'Racing Sans One', cursive;
+    box-sizing: border-box;
+}
 
 body {
     background-repeat: no-repeat;
@@ -11,6 +13,7 @@ body {
     height: 100vh;
     bottom: 100%;
 }
+
 
 .testgif {
     /* background-image: url(./img/intro.MOV); */
@@ -22,111 +25,163 @@ body {
     background-size: 300px;
 }
 
-
-
-
-/* h4 {
-} */
-
 .link-button {
     /* float: right; */
     padding-bottom: 25px;
     background: transparent;
     border: transparent;
     color: #6F0B1D;
+    position: relative;
+    float: right;
+}
+
+.link-button-R{
+    padding-bottom: 25px;
+    background: transparent;
+    border: transparent;
+    color: #6F0B1D;
+    position: relative;
+    float: left;
 }
 
 .sign-button {
     color: #6F0B1D;
 
 }
-head {   
-    color: aquamarine;
-    text-shadow: blue;
-    position: sticky;
+/* head {   
+} */
+
+p {
+    position: relative;
 }
 
 .para-img {
     float: right;
+    position: relative;
 }
 
 
-.nav-item {
-    color: blue;
-}
-
-.img {
+#spider-img {
     justify-content: center;
     position: relative;
-    height: 50%;
-    width: 80%;
+    height: 400;
+    width: 1025;
     border: 15px black;
-    left: 10%;
+    z-index: 50;
+    top: 5%;
+    /* background-image: url(./profiles/SuperSoulmate.gif); */
+    background-image: url(./profiles/tiltedAndrew2.jpg);
+    background-position-x: 65%;
+    background-position-y: 50%;
+    background-size: 230px;
+    background-repeat: no-repeat;
 }
-
 
 .hero {
-    /* left: 50%; */
+    /* left: 50%;  */
     position: relative;
-    justify-content: center;
-    background-image: url(https://image.winudf.com/v2/image1/Y29tLmFtYXppbmdsd3AubmlnaHRjaXR5bHdwX3NjcmVlbl82XzE1NTEyODQ2NDdfMDA2/screen-6.jpg?fakeurl=1&type=.jpg);
+    justify-content: center; 
+    height: 47%;
+    width: 100%;
+    /* background-position-x: 90%; */
+    background-position-x: right;
+    background-size: 380px;
+    background-repeat: no-repeat;
+    background-image: url(https://media.giphy.com/media/zsMARfkFl9cXu/giphy.gif);
+    /* background-image: url(https://image.winudf.com/v2/image1/Y29tLmFtYXppbmdsd3AubmlnaHRjaXR5bHdwX3NjcmVlbl82XzE1NTEyODQ2NDdfMDA2/screen-6.jpg?fakeurl=1&type=.jpg);  */
 }
 
-.col {
-    position: relative;
+.banner{
+    background-color: #6F0B1D;
+    
 }
-
-
-.signup-page {
-    background-color: lawngreen;
-}
-
 .figure {
     height: 30%;
     width: 20%;
     float: right;
-
 }
 
 aside{
-    /* background-color: darkolivegreen; */
     width: 35%;
     height:680px ;
     float: left;
+    /* background-color: pink; */
 }
 
-section, article{
-    background-color: deepskyblue;
-    height: 340px;
+article{
+    height: 565px;
     width: 65%;
     float: right;
+    top: 10%;
+    bottom: 5%;
+    position: relative;
+}
+
+.sign-up-para {
+    height: 540px;
+    width: 95%;
+    position: relative;
+    float: right;
+    bottom: 1%;
+    top: 1%;
+    /* background-color: deepskyblue; */
+}
+
+section {
+    top: 50%;
+    height: 240px;
+    width: 60%;
+    float: right;
+    /* background-color: #a44456; */
+    position: relative;
+}
+
+.about {
+    height: 240px;
+    width: 90%;
+    float: right;
+    position: relative;
+    bottom: 1%;
+    top: 1%;
+    /* background-color: #a44456; */
 }
 
 .figure1 {
     top: 10%;
-    left: 1%;
+    left: 11%;
     position: relative;
-    /* width: 25%; */
-    border: 5px solid #b6b4b5;   
-    border-radius: 5%;
+    width: 70%;
+    border: 3px solid #b6b4b5;   
+    border-radius: 3%;
 }
 
 .figure2 {
-    top: 20%;
-    left: 5%;
+    top: 15%;
+    left: 8%;
     position: relative;
-    width: 25%;
-    border: 5px solid #b6b4b5;   
-    border-radius: 5%;
+    width: 60%;
+    border: 3px solid #b6b4b5;   
+    border-radius: 3%;
 }
 
 .figure3 {
-    top: 30%;
-    left: 1%;
+    top: 20%;
+    left: 3%;
     position: relative;
-    width: 25%;
-    border: 5px solid #b6b4b5;   
-    border-radius: 5%;
+    width: 50%;
+    border: 3px solid #b6b4b5;   
+    border-radius: 3%;
+}
+
+footer{
+    background-color: #6F0B1D;
+    clear: both;
+    color: white;
+}
+
+.container {
+    position: relative;
+
 }
 
 .span {
