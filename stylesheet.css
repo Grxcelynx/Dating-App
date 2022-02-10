@@ -18,9 +18,24 @@ body {
     bottom: 100%;
 }
 
+.span {
+    background-color: #6F0B1D;   
+}
+
+.navbar-text {
+    font-size: x-large;
+    background-image: linear-gradient(to right, transparent, #e18999, transparent);
+}
+
+.navbar-brand {
+    font-size: 39px;
+    border: transparent;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px #b11f3a, 0 0 25px #ffa7a7, 0 0 5px #ed6f86;
+}
+
 
 .testgif {
-    /* background-image: url(./img/intro.MOV); */
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -29,25 +44,6 @@ body {
     background-size: 300px;
 }
 
-.link-button {
-    /* float: right; */
-    padding-bottom: 25px;
-    background: transparent;
-    border: transparent;
-    color: #6F0B1D;
-    position: relative;
-    float: right;
-}
-
-
-.link-button-R{
-    padding-bottom: 25px;
-    background: transparent;
-    border: transparent;
-    color: #6F0B1D;
-    position: relative;
-    float: left;
-}
 
 p {
     position: relative;
@@ -63,30 +59,17 @@ p {
     justify-content: center;
     position: relative;
     object-fit: cover;
-    
-    /* height: 400;
-    width: 1025; */
-
-    /* background-image: url(./profiles/SuperSoulmate.gif); */
-    /* background-image: url(./profiles/tiltedAndrew2.jpg); */
 }
 
 .hero {
-    /* left: 50%;  */
     position: relative;
     justify-content: center; 
     height:fit-content;
     width:fit-content;
     object-fit: cover;
-    /* background-position-x: 90%; */
-    /* background-image: url(https://th.bing.com/th/id/R.8866f73defff7a38b851bad9cd710f35?rik=lh1QszCiCfcnvw&riu=http%3a%2f%2fwww.clubit.tv%2fwp-content%2fuploads%2f2017%2f07%2fdeadpool-heart.jpg&ehk=Mhz1fAtlsOJTY1iHBvKqfdZWLQ%2bedxDmQdDPk2cJAvA%3d&risl=&pid=ImgRaw&r=0); */
-    /* background-image: url(https://media.giphy.com/media/zsMARfkFl9cXu/giphy.gif); */
-    /* background-image: url(https://image.winudf.com/v2/image1/Y29tLmFtYXppbmdsd3AubmlnaHRjaXR5bHdwX3NjcmVlbl82XzE1NTEyODQ2NDdfMDA2/screen-6.jpg?fakeurl=1&type=.jpg);  */
 }
 
-
 .banner{
-    /* background-color: #b3aaac; */
     height: 290px;
     object-fit: cover;
     position: relative;
@@ -98,8 +81,6 @@ p {
     background-position-y: 45%;
     background-position-x: right;
     background-image: linear-gradient(to right, transparent, transparent, #6F0B1D );
-
-    /* background-image: url(https://www.bing.com/th/id/OGC.784099d3fc00aad89bf282c93babf79a?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f9PcPxY3MTi71QfmRwd%2fgiphy.gif&ehk=vLOAkujx4PO5nAnHr2LysH6PIYHysobLxaisJq6Yjso%3d); */
 }
 
 .banner-img{
@@ -114,21 +95,14 @@ p {
     align-items: center;
     float: left;
     position: relative;
+    margin: 10px;
 }
 
-.deal{
-    border: transparent solid 5px;
-    color: black;
-    width:fit-content;
-    background-image: linear-gradient(to right, #d8ccce, transparent, #d8ccce );
-    position: relative;
-    object-fit: cover;
-    top: 15%;
-}
 
 .letterimg{
     float: right;
-    top: 10%;
+    height: 290px;
+    margin-right: 3%;
 }
 
 .h5{
@@ -143,8 +117,32 @@ p {
 aside{
     width: 35%;
     height:680px ;
+    margin-top: 2%;
     float: left;
-    /* background-color: pink; */
+}
+
+.link-button {
+    padding-bottom: 25px;
+    background: transparent;
+    position: relative;
+    float: right;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px 2px #550312, 0 0 25px #9a031f, 0 0 5px #6F0B1D;
+}
+
+
+.link-button-R{
+    padding-bottom: 25px;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    float: left;
+    margin: 7px;
+    font-size: large;
+
 }
 
 article{
@@ -158,11 +156,15 @@ article{
 .about{
     align-items: center;
     text-align: center;
+    margin-top: 3%;
 }
 
 .about-button{
+    border: transparent;
     background-color: transparent;
-    color: #6F0B1D;
+    color: white;
+    font-size: large;
+    text-shadow: 1px 1px 2px #550312, 0 0 25px #9a031f, 0 0 5px #6F0B1D;
 }
 
 .about-para{
@@ -175,29 +177,48 @@ article{
 }
 
 section {
-    /* top: 50%; */
     height: 240px;
-    width: 60%;
+    width: 95%;
     float: right;
-    /* background-color: #a44456; */
     position: relative;
-    align-items: center;
-    /* border-top: 5px solid #6F0B1D; */
-
 }
+
+.deal{
+    border: transparent solid 5px;
+    color: black;
+    background-image: linear-gradient(to right, transparent, #dcd0d2,#dcd0d2, transparent );
+    position: relative;
+    float: right;
+    width: fit-content;
+    margin-right: 2%;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 .sign-up{
     align-items: center;
     text-align: center;
+    float: right;
+    height: 200px;
 }
 
+.sign-title{
+    margin-bottom: 15%;
+}
+
+.sign-img{
+    background-image: radial-gradient(circle,#c90a2d,#f06767, transparent,transparent );
+}
 
 .sign-button {
-    color: #6F0B1D;
+    border: transparent;
     background-color: transparent;
+    color: white;
+    font-size: large;
+    margin-top: 10%;
+    text-shadow: 1px 1px 2px #550312, 0 0 25px #9a031f, 0 0 5px #6F0B1D;
 }
-
-
 
 .figure1 {
     top: 10%;
@@ -233,23 +254,8 @@ section {
     position: relative;
     top: 5%;
     height: 0px;
+    border-top: #550312 solid 3px;
 
-}
-
-
-.span {
-    background-color: #6F0B1D;   
-}
-
-.navbar-text {
-    color: #6F0B1D;
-    font-size: x-large;
-    background-image: linear-gradient(to right, transparent, #a44456, transparent);
-}
-
-.navbar-brand {
-    /* font-size: xx-large; */
-    font-size: 39px;
 }
 
 .b-example-divider {

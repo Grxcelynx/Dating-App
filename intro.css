@@ -1,10 +1,13 @@
 
+*{
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Racing Sans One', cursive;
+}
+
 .main {    
     height: 100vh;
     position: relative;
-    /* background-image: url(https://data.whicdn.com/images/328404020/original.gif) ; */
-    /* background-image: url(https://i.pinimg.com/originals/a2/e4/70/a2e4709301ba2486afe52696d031b5d9.gif); */
-    /* background-image: url(https://i.pinimg.com/originals/6e/47/1a/6e471a2370d95b21fdbcff841b3613d7.gif); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
@@ -17,37 +20,48 @@
     border: 15px solid black;
     border-radius: 5%;
     background-color: black;
-    left: 40%;
-    align-items: center;
-    bottom: 10%;
-    top: 20%;
-    box-shadow: 0 4px 8px 0 rgba(241, 238, 238, 0.2), 0 6px 20px 0 rgba(240, 236, 236, 0.19);
-
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(241, 238, 238, 0.2), 0 6px 20px 0 rgba(240, 236, 236, 0.345);
+    margin: 20px;
+    left: 34%;
+    -webkit-box-reflect: below 40px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
-.shadow {
-    transform: translateY(10%) perspective(100px) rotateX(6deg) scale(1, .4); 
-    position: absolute;
-    /* width: min(70%, 1000px); */
-    width: 1000px;
-    height: 20vh;
-    bottom: 0;
-    background-color: black;
-    border-radius: 1%;
-    background: radial-gradient(rgba(236, 236, 238, 0.8) 0px, transparent 10vh);
-    pointer-events: none;
-    animation: pulse 6s ease-in-out infinite;
-    right: 15%;
-}
-
-.iphone-button{
-    padding-bottom: 25px;
-    background: transparent;
-    border: transparent;
-    color: #6F0B1D;
-    position: relative;
-    left: 14%; 
-    align-items: center;
+.iphone-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: large;
+    cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 6px rgba(109, 109, 109, 0.372);
+    align-items: center;
+    position: relative;
 }
+
+.iphone-button:hover {   
+    background-image: linear-gradient(transparent, #333, transparent);
+}
+
+.iphone-button:active {
+    background-image: radial-gradient(#6F0B1D, #e60c34);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.iphone{
+    text-shadow: 1px 1px 2px #550312, 0 0 25px #9a031f, 0 0 5px #6F0B1D;
+    color: #fff;
+}
+
+.iphone:hover{
+    color: #e60c34;
+}
+
+
 
