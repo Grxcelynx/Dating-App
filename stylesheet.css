@@ -1,3 +1,7 @@
+
+
+
+
 *{
     font-family: 'Fugaz One', cursive;
     font-family: 'Luckiest Guy', cursive;
@@ -35,6 +39,7 @@ body {
     float: right;
 }
 
+
 .link-button-R{
     padding-bottom: 25px;
     background: transparent;
@@ -43,13 +48,6 @@ body {
     position: relative;
     float: left;
 }
-
-.sign-button {
-    color: #6F0B1D;
-
-}
-/* head {   
-} */
 
 p {
     position: relative;
@@ -61,44 +59,85 @@ p {
 }
 
 
-#spider-img {
+#hero-img {
     justify-content: center;
     position: relative;
-    height: 400;
-    width: 1025;
-    border: 15px black;
-    z-index: 50;
-    top: 5%;
+    object-fit: cover;
+    
+    /* height: 400;
+    width: 1025; */
+
     /* background-image: url(./profiles/SuperSoulmate.gif); */
-    background-image: url(./profiles/tiltedAndrew2.jpg);
-    background-position-x: 65%;
-    background-position-y: 50%;
-    background-size: 230px;
-    background-repeat: no-repeat;
+    /* background-image: url(./profiles/tiltedAndrew2.jpg); */
 }
 
 .hero {
     /* left: 50%;  */
     position: relative;
     justify-content: center; 
-    height: 47%;
-    width: 100%;
+    height:fit-content;
+    width:fit-content;
+    object-fit: cover;
     /* background-position-x: 90%; */
-    background-position-x: right;
-    background-size: 380px;
-    background-repeat: no-repeat;
-    background-image: url(https://media.giphy.com/media/zsMARfkFl9cXu/giphy.gif);
+    /* background-image: url(https://th.bing.com/th/id/R.8866f73defff7a38b851bad9cd710f35?rik=lh1QszCiCfcnvw&riu=http%3a%2f%2fwww.clubit.tv%2fwp-content%2fuploads%2f2017%2f07%2fdeadpool-heart.jpg&ehk=Mhz1fAtlsOJTY1iHBvKqfdZWLQ%2bedxDmQdDPk2cJAvA%3d&risl=&pid=ImgRaw&r=0); */
+    /* background-image: url(https://media.giphy.com/media/zsMARfkFl9cXu/giphy.gif); */
     /* background-image: url(https://image.winudf.com/v2/image1/Y29tLmFtYXppbmdsd3AubmlnaHRjaXR5bHdwX3NjcmVlbl82XzE1NTEyODQ2NDdfMDA2/screen-6.jpg?fakeurl=1&type=.jpg);  */
 }
 
+
 .banner{
-    background-color: #6F0B1D;
-    
+    /* background-color: #b3aaac; */
+    height: 290px;
+    object-fit: cover;
+    position: relative;
+    color:#6F0B1D;
+    border-bottom: solid#6F0B1D;
+    border-top: solid #6F0B1D;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    background-position-x: right;
+    background-image: linear-gradient(to right, transparent, transparent, #6F0B1D );
+
+    /* background-image: url(https://www.bing.com/th/id/OGC.784099d3fc00aad89bf282c93babf79a?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2f9PcPxY3MTi71QfmRwd%2fgiphy.gif&ehk=vLOAkujx4PO5nAnHr2LysH6PIYHysobLxaisJq6Yjso%3d); */
 }
-.figure {
-    height: 30%;
-    width: 20%;
+
+.banner-img{
+    height: 150px;
+    align-items: center;
+    position: relative;
+    float: left;
+    width: auto;
+}
+
+.banner-text{
+    align-items: center;
+    float: left;
+    position: relative;
+}
+
+.deal{
+    border: transparent solid 5px;
+    color: black;
+    width:fit-content;
+    background-image: linear-gradient(to right, #d8ccce, transparent, #d8ccce );
+    position: relative;
+    object-fit: cover;
+    top: 15%;
+}
+
+.letterimg{
     float: right;
+    top: 10%;
+}
+
+.h5{
+    position: relative;
+}
+
+.review-title{
+    align-items: center;
+    left: 50%;
 }
 
 aside{
@@ -113,38 +152,52 @@ article{
     width: 65%;
     float: right;
     top: 10%;
-    bottom: 5%;
     position: relative;
 }
 
-.sign-up-para {
-    height: 540px;
-    width: 95%;
+.about{
+    align-items: center;
+    text-align: center;
+}
+
+.about-button{
+    background-color: transparent;
+    color: #6F0B1D;
+}
+
+.about-para{
     position: relative;
-    float: right;
-    bottom: 1%;
-    top: 1%;
-    /* background-color: deepskyblue; */
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 section {
-    top: 50%;
+    /* top: 50%; */
     height: 240px;
     width: 60%;
     float: right;
     /* background-color: #a44456; */
     position: relative;
+    align-items: center;
+    /* border-top: 5px solid #6F0B1D; */
+
 }
 
-.about {
-    height: 240px;
-    width: 90%;
-    float: right;
-    position: relative;
-    bottom: 1%;
-    top: 1%;
-    /* background-color: #a44456; */
+.sign-up{
+    align-items: center;
+    text-align: center;
 }
+
+
+.sign-button {
+    color: #6F0B1D;
+    background-color: transparent;
+}
+
+
 
 .figure1 {
     top: 10%;
@@ -173,16 +226,16 @@ section {
     border-radius: 3%;
 }
 
-footer{
+.footer{
     background-color: #6F0B1D;
     clear: both;
     color: white;
-}
-
-.container {
     position: relative;
+    top: 5%;
+    height: 0px;
 
 }
+
 
 .span {
     background-color: #6F0B1D;   
@@ -210,3 +263,15 @@ footer{
     vertical-align: -.125em;
     fill: currentColor;
 } 
+
+
+
+
+/* REVIEWS */
+
+.review-header{
+    background-image: url(./img/eternals.jpeg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}

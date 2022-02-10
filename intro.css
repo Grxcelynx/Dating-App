@@ -17,7 +17,7 @@
     border: 15px solid black;
     border-radius: 5%;
     background-color: black;
-    left: 37%;
+    left: 40%;
     align-items: center;
     bottom: 10%;
     top: 20%;
@@ -37,7 +37,7 @@
     background: radial-gradient(rgba(236, 236, 238, 0.8) 0px, transparent 10vh);
     pointer-events: none;
     animation: pulse 6s ease-in-out infinite;
-    right: 12%;
+    right: 15%;
 }
 
 .iphone-button{
@@ -46,6 +46,8 @@
     border: transparent;
     color: #6F0B1D;
     position: relative;
-    left: 20%;
+    left: 14%; 
+    align-items: center;
+    text-align: center;
 }
 
