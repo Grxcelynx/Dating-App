@@ -279,5 +279,79 @@ section {
     background-image: url(./img/eternals.jpeg);
     background-repeat: no-repeat;
     height: 500px;
+    width: 2000px;
+    right: 50%;
+    background-position-x: 10%;
+    text-shadow: #550312;
+    color: #550312;
+}
+
+.review-hero{
+    text-shadow: #550312;
+    text-align: center;
+
+}
+
+.figure{
+    border: #550312 solid 3px;
+ 
+}
+
+
+/* ABOUT PAGE */
+
+#about-title{
+    margin-top: 50px;
+}
+
+.about-img-hero{
+    height: 400px;
     width: 100%;
+    position: relative;
+    background-repeat: no-repeat; 
+}
+
+.hero2{
+    width: 100%;
+    position: relative;
+}
+
+#about-info{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+#why-para{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#special{
+    border-top: #550312 solid 3px;
+    margin-top: 80px;
+}
+
+.stark{
+    margin: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+.wayne{
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.pym{
+    margin: 20px;
+    height: 100px;
+    width: 90px;
+}
+
+.about.nav{
+    height: 10%;
+    font-size: x-small;
 }
