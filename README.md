@@ -8,4 +8,4 @@ This is a landing page project from the first week of my Apprenticeship with Bit
 https://grxcelynx.github.io/Dating-App/
 
 ## Tech Stack
-Frontend: HTML | CSS
+Boostrap | HTML | CSS
