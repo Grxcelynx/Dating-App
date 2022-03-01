@@ -7,5 +7,5 @@ This is a landing page project from the first week of my Apprenticeship with Bit
 ## View and Interact
 https://grxcelynx.github.io/Dating-App/
 
-##Tech Stack
+## Tech Stack
 Frontend: HTML | CSS
